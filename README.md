@@ -1,8 +1,10 @@
-argparse
+Stacker CLI Arguments Parser
 ========
 
-[![Build Status](https://secure.travis-ci.org/nodeca/argparse.png?branch=master)](http://travis-ci.org/nodeca/argparse)
-[![NPM version](https://img.shields.io/npm/v/argparse.svg)](https://www.npmjs.org/package/argparse)
+This is a fork of [https://github.com/nodeca/argparse](argparse).
+
+[![Build Status](https://secure.travis-ci.org/getstacker/stacker-args.png?branch=master)](http://travis-ci.org/getstacker/stacker-args)
+[![NPM version](https://img.shields.io/npm/v/stacker-args.svg)](https://www.npmjs.org/package/stacker-args)
 
 CLI arguments parser for node.js. Javascript port of python's
 [argparse](http://docs.python.org/dev/library/argparse.html) module
