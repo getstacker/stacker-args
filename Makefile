@@ -8,7 +8,7 @@ TMP_PATH    := /tmp/${NPM_PACKAGE}-$(shell date +%s)
 REMOTE_NAME ?= origin
 REMOTE_REPO ?= $(shell git config --get remote.${REMOTE_NAME}.url)
 
-CURR_HEAD   := $(firstword $(shell git show-ref --hash HEAD | cut --bytes=-6) master)
+CURR_HEAD   := $(firstword $(shell git show-ref --hash HEAD) master)
 GITHUB_PROJ := nodeca/${NPM_PACKAGE}
 
 
@@ -75,7 +75,7 @@ gh-pages:
 		git commit -q -m 'Recreated docs'
 	cd ${TMP_PATH} && \
 		git remote add remote ${REMOTE_REPO} && \
-		git push --force remote +master:gh-pages 
+		git push --force remote +master:gh-pages
 	rm -rf ${TMP_PATH}
 
 
