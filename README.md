@@ -1,7 +1,7 @@
 Stacker CLI Arguments Parser
 ========
 
-This is a fork of [https://github.com/nodeca/argparse](argparse).
+This is a fork of [argparse](https://github.com/nodeca/argparse).
 
 [![Build Status](https://secure.travis-ci.org/getstacker/stacker-args.png?branch=master)](http://travis-ci.org/getstacker/stacker-args)
 [![NPM version](https://img.shields.io/npm/v/stacker-args.svg)](https://www.npmjs.org/package/stacker-args)
