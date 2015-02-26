@@ -10,7 +10,7 @@ var print = function () {
   };
 // print = function () {};
 
-var argparse = require('argparse');
+var argparse = require('../lib/argparse');
 
 print("TEST argparse.ArgumentDefaultsHelpFormatter");
 
