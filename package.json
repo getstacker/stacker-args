@@ -1,7 +1,7 @@
 {
   "name": "stacker-args",
   "description": "Stacker CLI arguments parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "stacker",
     "cli",
